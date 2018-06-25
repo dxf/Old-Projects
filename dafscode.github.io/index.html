@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+a {
+	color: white;
+	}
+@font-face {
+	font-family: "contentfont";
+	src: url(font.ttf);
+	}
+body {
+	z-index: 100;
+	}
+div#background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+	object-fit: fill;
+	}
+.backgroundvideo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+	object-fit: fill;
+	}
+div#content {
+	top: 25%;
+	right: 25%;
+	left: 25%;
+	bottom: 20%;
+	position: absolute;
+	font-family: "contentfont";
+	background-color: black;
+	opacity: 0.2;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	}
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+</style>
+<title>Dafydd - Home</title>
+</head>
+<audio autoplay>
+<source src="back.mp3" type="audio/mpeg">
+You should probably update your browser.
+</audio>
+<div class="background">
+	<video loop autoplay poster="https://ak.picdn.net/assets/cms/71663cb9a048668b680962f2ac5cc5753364e9f2-stock-vector-glitch-abstract-background-with-distortion-effect-random-horizontal-orange-and-green-color-lines-552670291.jpg" class="backgroundvideo">
+		<source src="video.mp4" type="video/mp4">
+	</video>
+</div>
+<body>
+	<div id="content">Dafydd
+	<br />
+<a href="projects.html">Projects</a>
+<br />
+<a href="https://twitter.com/Dafydd_someone"><img src="twit.png" /></a>
+	<br />
+	</div>
+</body>
+</html>
