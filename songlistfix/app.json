@@ -1,0 +1,16 @@
+{
+  "name": "Songlist fix",
+  "description": "HACE's channel's songlist cmd is broken so I fixed it.",
+  "image": "heroku/python",
+  "repository": "https://github.com/dxf/songlist",
+  "keywords": ["python" ],
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python chatbot.py twitchusername twitchdeveloperclientid twitchoauth channeltojoin",
+        "test": "python chatbot.py twitchusername twitchdeveloperclientid twitchoauth channeltojoin"
+      }
+    }
+  }
+}

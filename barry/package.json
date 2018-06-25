@@ -1,0 +1,30 @@
+{
+  "name": "barry",
+  "description": "Discord bot that has one purpose: the Bee Movie script.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "maintainers": [
+    {
+      "name": "DafsCode",
+      "email": "",
+      "web": "https://github.com/DafsCode"
+    },
+    {
+      "name": "Austin Huang",
+      "email": "im@austinhuang.me",
+      "web": "https://austinhuang.me"
+    }
+  ],
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/DafsCode/barry.git"
+    }
+  ]
+}
