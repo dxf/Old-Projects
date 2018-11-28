@@ -1,6 +1,6 @@
 {
-  "name": "python-heroku-nobullshit",
-  "description": "heroku create example, clone this, heroku git:remote -a example, git push --force heroku master. no bullshit, just python in the cloud. ",
+  "name": "python-heroku-no-colorful-language",
+  "description": "heroku create example, clone this, heroku git:remote -a example, git push --force heroku master. no colorful language, just python in the cloud. ",
   "image": "heroku/python",
   "repository": "https://github.com/dxf/songlist",
   "keywords": ["python" ],
