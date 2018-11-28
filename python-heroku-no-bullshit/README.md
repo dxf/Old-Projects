@@ -1,4 +1,4 @@
-# python-heroku-no-bullshit
+# python-heroku-no-colorful-language
 
 follow the description
 
